@@ -7,7 +7,7 @@ configMapGenerator:
     - cart/cart.env
 - name: booking
   envs:
-    - cart/cart.env
+    - booking/booking.env
 
 generatorOptions:
   disableNameSuffixHash: true
